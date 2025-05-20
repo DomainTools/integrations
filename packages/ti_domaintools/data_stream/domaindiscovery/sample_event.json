@@ -47,8 +47,8 @@
     },
     "domaintools": {
         "domain": "tractorpoweredcoreaerator.com",
-        "feed": "nod",
-        "timestamp": "2025-01-30T20:14:48Z"
+        "timestamp": "2025-01-30T20:14:48Z",
+        "feed": "domaindiscovery"
     },
     "threat": {
         "indicator": {
@@ -57,7 +57,7 @@
         },
         "feed": {
             "reference": "https://docs.techdocs.ci.domaintools.cloud/feeds/realtime/userguide/",
-            "name": "DomainTools NOD",
+            "name": "DomainTools domaindiscovery",
             "description": "Apex-level domains (e.g. example.com but not www.example.com) that we observe for the first time, and have not observed previously with our global DNS sensor network."
         }
     },
@@ -72,6 +72,6 @@
         "type": [
             "indicator"
         ],
-        "dataset": "ti_domaintools.nod_feed"
+        "dataset": "ti_domaintools.domaindiscovery"
     }
 }
