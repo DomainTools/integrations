@@ -1,6 +1,6 @@
-title: "DomainTools Newly Observed Domains Feed"
+title: "DomainTools Domain Discovery Feed"
 type: logs
-ilm_policy: logs-ti_domaintools.nod_feed-default_policy
+ilm_policy: logs-ti_domaintools.domaindiscovery-default_policy
 streams:
   - input: cel
     vars:
@@ -53,6 +53,6 @@ streams:
         multi: false
         required: false
         show_user: false
-    title: DomainTools Newly Observed Domains Feed
-    description: Subscribe to DomainTools Newly Observed Domains Feed
+    title: DomainTools Domain Discovery Feed
+    description: Subscribe to DomainTools Domain Discovery Feed
     template_path: cel.yml.hbs
